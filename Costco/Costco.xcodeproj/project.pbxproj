@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A392187298E0E4F006D814C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A392186298E0E4F006D814C /* AppDelegate.swift */; };
+		5A392189298E0E4F006D814C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A392188298E0E4F006D814C /* SceneDelegate.swift */; };
+		5A39218B298E0E4F006D814C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39218A298E0E4F006D814C /* ViewController.swift */; };
+		5A39218E298E0E4F006D814C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A39218C298E0E4F006D814C /* Main.storyboard */; };
+		5A392190298E0E52006D814C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A39218F298E0E52006D814C /* Assets.xcassets */; };
+		5A392193298E0E52006D814C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A392191298E0E52006D814C /* LaunchScreen.storyboard */; };
+		5A39219E298E0E53006D814C /* CostcoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39219D298E0E53006D814C /* CostcoTests.swift */; };
+		5A3921A8298E0E53006D814C /* CostcoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3921A7298E0E53006D814C /* CostcoUITests.swift */; };
+		5A3921AA298E0E53006D814C /* CostcoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3921A9298E0E53006D814C /* CostcoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A39219A298E0E52006D814C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A39217B298E0E4F006D814C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A392182298E0E4F006D814C;
+			remoteInfo = Costco;
+		};
+		5A3921A4298E0E53006D814C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A39217B298E0E4F006D814C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A392182298E0E4F006D814C;
+			remoteInfo = Costco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A392183298E0E4F006D814C /* Costco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Costco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A392186298E0E4F006D814C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A392188298E0E4F006D814C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A39218A298E0E4F006D814C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A39218D298E0E4F006D814C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A39218F298E0E52006D814C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A392192298E0E52006D814C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A392194298E0E52006D814C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A392199298E0E52006D814C /* CostcoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostcoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A39219D298E0E53006D814C /* CostcoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostcoTests.swift; sourceTree = "<group>"; };
+		5A3921A3298E0E53006D814C /* CostcoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostcoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3921A7298E0E53006D814C /* CostcoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostcoUITests.swift; sourceTree = "<group>"; };
+		5A3921A9298E0E53006D814C /* CostcoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostcoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A392180298E0E4F006D814C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A392196298E0E52006D814C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3921A0298E0E53006D814C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A39217A298E0E4F006D814C = {
+			isa = PBXGroup;
+			children = (
+				5A392185298E0E4F006D814C /* Costco */,
+				5A39219C298E0E52006D814C /* CostcoTests */,
+				5A3921A6298E0E53006D814C /* CostcoUITests */,
+				5A392184298E0E4F006D814C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A392184298E0E4F006D814C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A392183298E0E4F006D814C /* Costco.app */,
+				5A392199298E0E52006D814C /* CostcoTests.xctest */,
+				5A3921A3298E0E53006D814C /* CostcoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A392185298E0E4F006D814C /* Costco */ = {
+			isa = PBXGroup;
+			children = (
+				5A392186298E0E4F006D814C /* AppDelegate.swift */,
+				5A392188298E0E4F006D814C /* SceneDelegate.swift */,
+				5A39218A298E0E4F006D814C /* ViewController.swift */,
+				5A39218C298E0E4F006D814C /* Main.storyboard */,
+				5A39218F298E0E52006D814C /* Assets.xcassets */,
+				5A392191298E0E52006D814C /* LaunchScreen.storyboard */,
+				5A392194298E0E52006D814C /* Info.plist */,
+			);
+			path = Costco;
+			sourceTree = "<group>";
+		};
+		5A39219C298E0E52006D814C /* CostcoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A39219D298E0E53006D814C /* CostcoTests.swift */,
+			);
+			path = CostcoTests;
+			sourceTree = "<group>";
+		};
+		5A3921A6298E0E53006D814C /* CostcoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A3921A7298E0E53006D814C /* CostcoUITests.swift */,
+				5A3921A9298E0E53006D814C /* CostcoUITestsLaunchTests.swift */,
+			);
+			path = CostcoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A392182298E0E4F006D814C /* Costco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3921AD298E0E53006D814C /* Build configuration list for PBXNativeTarget "Costco" */;
+			buildPhases = (
+				5A39217F298E0E4F006D814C /* Sources */,
+				5A392180298E0E4F006D814C /* Frameworks */,
+				5A392181298E0E4F006D814C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Costco;
+			productName = Costco;
+			productReference = 5A392183298E0E4F006D814C /* Costco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A392198298E0E52006D814C /* CostcoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3921B0298E0E53006D814C /* Build configuration list for PBXNativeTarget "CostcoTests" */;
+			buildPhases = (
+				5A392195298E0E52006D814C /* Sources */,
+				5A392196298E0E52006D814C /* Frameworks */,
+				5A392197298E0E52006D814C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A39219B298E0E52006D814C /* PBXTargetDependency */,
+			);
+			name = CostcoTests;
+			productName = CostcoTests;
+			productReference = 5A392199298E0E52006D814C /* CostcoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A3921A2298E0E53006D814C /* CostcoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3921B3298E0E53006D814C /* Build configuration list for PBXNativeTarget "CostcoUITests" */;
+			buildPhases = (
+				5A39219F298E0E53006D814C /* Sources */,
+				5A3921A0298E0E53006D814C /* Frameworks */,
+				5A3921A1298E0E53006D814C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A3921A5298E0E53006D814C /* PBXTargetDependency */,
+			);
+			name = CostcoUITests;
+			productName = CostcoUITests;
+			productReference = 5A3921A3298E0E53006D814C /* CostcoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A39217B298E0E4F006D814C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5A392182298E0E4F006D814C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5A392198298E0E52006D814C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5A392182298E0E4F006D814C;
+					};
+					5A3921A2298E0E53006D814C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5A392182298E0E4F006D814C;
+					};
+				};
+			};
+			buildConfigurationList = 5A39217E298E0E4F006D814C /* Build configuration list for PBXProject "Costco" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A39217A298E0E4F006D814C;
+			productRefGroup = 5A392184298E0E4F006D814C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A392182298E0E4F006D814C /* Costco */,
+				5A392198298E0E52006D814C /* CostcoTests */,
+				5A3921A2298E0E53006D814C /* CostcoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A392181298E0E4F006D814C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A392193298E0E52006D814C /* LaunchScreen.storyboard in Resources */,
+				5A392190298E0E52006D814C /* Assets.xcassets in Resources */,
+				5A39218E298E0E4F006D814C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A392197298E0E52006D814C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3921A1298E0E53006D814C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A39217F298E0E4F006D814C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A39218B298E0E4F006D814C /* ViewController.swift in Sources */,
+				5A392187298E0E4F006D814C /* AppDelegate.swift in Sources */,
+				5A392189298E0E4F006D814C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A392195298E0E52006D814C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A39219E298E0E53006D814C /* CostcoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A39219F298E0E53006D814C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3921A8298E0E53006D814C /* CostcoUITests.swift in Sources */,
+				5A3921AA298E0E53006D814C /* CostcoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A39219B298E0E52006D814C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A392182298E0E4F006D814C /* Costco */;
+			targetProxy = 5A39219A298E0E52006D814C /* PBXContainerItemProxy */;
+		};
+		5A3921A5298E0E53006D814C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A392182298E0E4F006D814C /* Costco */;
+			targetProxy = 5A3921A4298E0E53006D814C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A39218C298E0E4F006D814C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A39218D298E0E4F006D814C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A392191298E0E52006D814C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A392192298E0E52006D814C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A3921AB298E0E53006D814C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A3921AC298E0E53006D814C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A3921AE298E0E53006D814C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL8P587X9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Costco/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duggu.com.Costco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A3921AF298E0E53006D814C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL8P587X9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Costco/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duggu.com.Costco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A3921B1298E0E53006D814C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL8P587X9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duggu.com.CostcoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Costco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Costco";
+			};
+			name = Debug;
+		};
+		5A3921B2298E0E53006D814C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL8P587X9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duggu.com.CostcoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Costco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Costco";
+			};
+			name = Release;
+		};
+		5A3921B4298E0E53006D814C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL8P587X9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duggu.com.CostcoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Costco;
+			};
+			name = Debug;
+		};
+		5A3921B5298E0E53006D814C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL8P587X9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duggu.com.CostcoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Costco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A39217E298E0E4F006D814C /* Build configuration list for PBXProject "Costco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3921AB298E0E53006D814C /* Debug */,
+				5A3921AC298E0E53006D814C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3921AD298E0E53006D814C /* Build configuration list for PBXNativeTarget "Costco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3921AE298E0E53006D814C /* Debug */,
+				5A3921AF298E0E53006D814C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3921B0298E0E53006D814C /* Build configuration list for PBXNativeTarget "CostcoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3921B1298E0E53006D814C /* Debug */,
+				5A3921B2298E0E53006D814C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3921B3298E0E53006D814C /* Build configuration list for PBXNativeTarget "CostcoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3921B4298E0E53006D814C /* Debug */,
+				5A3921B5298E0E53006D814C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A39217B298E0E4F006D814C /* Project object */;
+}
