@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		5A392187298E0E4F006D814C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A392186298E0E4F006D814C /* AppDelegate.swift */; };
 		5A392189298E0E4F006D814C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A392188298E0E4F006D814C /* SceneDelegate.swift */; };
-		5A39218B298E0E4F006D814C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39218A298E0E4F006D814C /* ViewController.swift */; };
-		5A39218E298E0E4F006D814C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A39218C298E0E4F006D814C /* Main.storyboard */; };
 		5A392190298E0E52006D814C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A39218F298E0E52006D814C /* Assets.xcassets */; };
 		5A392193298E0E52006D814C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A392191298E0E52006D814C /* LaunchScreen.storyboard */; };
 		5A39219E298E0E53006D814C /* CostcoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39219D298E0E53006D814C /* CostcoTests.swift */; };
 		5A3921A8298E0E53006D814C /* CostcoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3921A7298E0E53006D814C /* CostcoUITests.swift */; };
 		5A3921AA298E0E53006D814C /* CostcoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3921A9298E0E53006D814C /* CostcoUITestsLaunchTests.swift */; };
+		5A3921BC298E1A00006D814C /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3921BB298E1A00006D814C /* AppCoordinator.swift */; };
+		5A3921BF298E1A4D006D814C /* CostcoApis in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3921BE298E1A4D006D814C /* CostcoApis */; };
+		5A3921C1298E1A4D006D814C /* CostcoApplicationBootStrap in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3921C0298E1A4D006D814C /* CostcoApplicationBootStrap */; };
+		5A3921C3298E1A4D006D814C /* CostcoDashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3921C2298E1A4D006D814C /* CostcoDashboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		5A392183298E0E4F006D814C /* Costco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Costco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A392186298E0E4F006D814C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A392188298E0E4F006D814C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A39218A298E0E4F006D814C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A39218D298E0E4F006D814C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A39218F298E0E52006D814C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A392192298E0E52006D814C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A392194298E0E52006D814C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,10 @@
 		5A3921A3298E0E53006D814C /* CostcoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostcoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3921A7298E0E53006D814C /* CostcoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostcoUITests.swift; sourceTree = "<group>"; };
 		5A3921A9298E0E53006D814C /* CostcoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostcoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A3921B7298E10A0006D814C /* CostcoApis */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CostcoApis; path = ../CostcoApis; sourceTree = "<group>"; };
+		5A3921B8298E10AB006D814C /* CostcoApplicationBootStrap */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CostcoApplicationBootStrap; path = ../CostcoApplicationBootStrap; sourceTree = "<group>"; };
+		5A3921B9298E10B7006D814C /* CostcoDashboard */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CostcoDashboard; path = ../CostcoDashboard; sourceTree = "<group>"; };
+		5A3921BB298E1A00006D814C /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3921C3298E1A4D006D814C /* CostcoDashboard in Frameworks */,
+				5A3921BF298E1A4D006D814C /* CostcoApis in Frameworks */,
+				5A3921C1298E1A4D006D814C /* CostcoApplicationBootStrap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +86,12 @@
 		5A39217A298E0E4F006D814C = {
 			isa = PBXGroup;
 			children = (
+				5A3921B6298E10A0006D814C /* Packages */,
 				5A392185298E0E4F006D814C /* Costco */,
 				5A39219C298E0E52006D814C /* CostcoTests */,
 				5A3921A6298E0E53006D814C /* CostcoUITests */,
 				5A392184298E0E4F006D814C /* Products */,
+				5A3921BD298E1A4D006D814C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +108,8 @@
 		5A392185298E0E4F006D814C /* Costco */ = {
 			isa = PBXGroup;
 			children = (
-				5A392186298E0E4F006D814C /* AppDelegate.swift */,
-				5A392188298E0E4F006D814C /* SceneDelegate.swift */,
-				5A39218A298E0E4F006D814C /* ViewController.swift */,
-				5A39218C298E0E4F006D814C /* Main.storyboard */,
+				5A3921C4298E1A68006D814C /* AppDelegate */,
+				5A3921BA298E19EF006D814C /* AppCoordinator */,
 				5A39218F298E0E52006D814C /* Assets.xcassets */,
 				5A392191298E0E52006D814C /* LaunchScreen.storyboard */,
 				5A392194298E0E52006D814C /* Info.plist */,
@@ -127,6 +134,40 @@
 			path = CostcoUITests;
 			sourceTree = "<group>";
 		};
+		5A3921B6298E10A0006D814C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5A3921B7298E10A0006D814C /* CostcoApis */,
+				5A3921B8298E10AB006D814C /* CostcoApplicationBootStrap */,
+				5A3921B9298E10B7006D814C /* CostcoDashboard */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		5A3921BA298E19EF006D814C /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5A3921BB298E1A00006D814C /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		5A3921BD298E1A4D006D814C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A3921C4298E1A68006D814C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5A392186298E0E4F006D814C /* AppDelegate.swift */,
+				5A392188298E0E4F006D814C /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +184,11 @@
 			dependencies = (
 			);
 			name = Costco;
+			packageProductDependencies = (
+				5A3921BE298E1A4D006D814C /* CostcoApis */,
+				5A3921C0298E1A4D006D814C /* CostcoApplicationBootStrap */,
+				5A3921C2298E1A4D006D814C /* CostcoDashboard */,
+			);
 			productName = Costco;
 			productReference = 5A392183298E0E4F006D814C /* Costco.app */;
 			productType = "com.apple.product-type.application";
@@ -233,7 +279,6 @@
 			files = (
 				5A392193298E0E52006D814C /* LaunchScreen.storyboard in Resources */,
 				5A392190298E0E52006D814C /* Assets.xcassets in Resources */,
-				5A39218E298E0E4F006D814C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A39218B298E0E4F006D814C /* ViewController.swift in Sources */,
+				5A3921BC298E1A00006D814C /* AppCoordinator.swift in Sources */,
 				5A392187298E0E4F006D814C /* AppDelegate.swift in Sources */,
 				5A392189298E0E4F006D814C /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +342,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5A39218C298E0E4F006D814C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A39218D298E0E4F006D814C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5A392191298E0E52006D814C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +479,6 @@
 				INFOPLIST_FILE = Costco/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +506,6 @@
 				INFOPLIST_FILE = Costco/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +637,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A3921BE298E1A4D006D814C /* CostcoApis */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CostcoApis;
+		};
+		5A3921C0298E1A4D006D814C /* CostcoApplicationBootStrap */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CostcoApplicationBootStrap;
+		};
+		5A3921C2298E1A4D006D814C /* CostcoDashboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CostcoDashboard;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A39217B298E0E4F006D814C /* Project object */;
 }
