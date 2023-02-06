@@ -22,9 +22,9 @@ enum EnumEnvironment: EnvironmentManaging {
     var baseUrl: String {
         switch self {
         case .development:
-            return "https://meowfacts.herokuapp.com/"
+            return "https://wsdot.wa.gov/"
         case .prod:
-            return "https://meowfacts.herokuapp.com/"
+            return "https://wsdot.wa.gov/"
         }
     }
 }

@@ -34,3 +34,20 @@ public extension NetworkManaging {
 }
 
 
+
+public protocol TemperatureFormatting {
+    func formatFahrenheit(temperature: Int?) -> String?
+}
+
+
+public protocol Caching {
+    var enable: Bool { get }
+    func object(forKey key: AnyObject) -> AnyObject?
+    func setObject(_ obj: AnyObject, forKey key: AnyObject)
+}
+
+public extension Caching {
+    var enable: Bool {
+        true
+    }
+}

@@ -23,7 +23,7 @@ let package = Package(
         .target(
             name: "CostcoDashboard",
             dependencies: ["CostcoApis"],
-            resources: [.process("CostcoDashboardViewController.storyboard")]
+            resources: [.process("MountainPassRoadViewController.storyboard")]
         ),
         .testTarget(
             name: "CostcoDashboardTests",

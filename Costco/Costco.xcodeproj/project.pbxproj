@@ -18,6 +18,7 @@
 		5A3921BF298E1A4D006D814C /* CostcoApis in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3921BE298E1A4D006D814C /* CostcoApis */; };
 		5A3921C1298E1A4D006D814C /* CostcoApplicationBootStrap in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3921C0298E1A4D006D814C /* CostcoApplicationBootStrap */; };
 		5A3921C3298E1A4D006D814C /* CostcoDashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3921C2298E1A4D006D814C /* CostcoDashboard */; };
+		5A8CA8B82991BC5A00637BE4 /* Costco.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5A8CA8B72991BC5A00637BE4 /* Costco.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5A3921B8298E10AB006D814C /* CostcoApplicationBootStrap */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CostcoApplicationBootStrap; path = ../CostcoApplicationBootStrap; sourceTree = "<group>"; };
 		5A3921B9298E10B7006D814C /* CostcoDashboard */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CostcoDashboard; path = ../CostcoDashboard; sourceTree = "<group>"; };
 		5A3921BB298E1A00006D814C /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5A8CA8B72991BC5A00637BE4 /* Costco.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Costco.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		5A39217A298E0E4F006D814C = {
 			isa = PBXGroup;
 			children = (
+				5A8CA8B72991BC5A00637BE4 /* Costco.mov */,
 				5A3921B6298E10A0006D814C /* Packages */,
 				5A392185298E0E4F006D814C /* Costco */,
 				5A39219C298E0E52006D814C /* CostcoTests */,
@@ -279,6 +282,7 @@
 			files = (
 				5A392193298E0E52006D814C /* LaunchScreen.storyboard in Resources */,
 				5A392190298E0E52006D814C /* Assets.xcassets in Resources */,
+				5A8CA8B82991BC5A00637BE4 /* Costco.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +485,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,6 +513,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
