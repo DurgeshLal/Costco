@@ -32,8 +32,3 @@ final class AppCoordinator: NSObject, Coordinator {
         }
     }
 }
-
-// Using Package to manage code better and make it modular
-// Use Swift UI and Combine
-
-

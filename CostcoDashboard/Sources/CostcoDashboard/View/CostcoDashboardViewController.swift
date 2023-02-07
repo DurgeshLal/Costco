@@ -25,6 +25,8 @@ class CostcoDashboardViewController: UIViewController, WKScriptMessageHandler, W
     
     private var cancellables: Set = Set<AnyCancellable>()
     
+    private var webView: WKWebView!
+    
     required init(_ viewModel: CostcoDashboardViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
@@ -33,9 +35,6 @@ class CostcoDashboardViewController: UIViewController, WKScriptMessageHandler, W
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    
-    var webView: WKWebView!
     
     private func loadHome() {
         webView.load(URLRequest(url: viewModel.homePageUrl))
